@@ -1,3 +1,4 @@
+```bash
 services:
   web:
     image: php:7.2-apache
@@ -25,3 +26,4 @@ services:
       - 8080:80
     environment:
       - PMA_ARBITRARY=1
+```
