@@ -7,6 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hola</h1>
+    <h1>Gestión de Usuarios</h1>
+    <form action="" method="get" id="enviarDatos" >
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="apellido">Email:</label>
+        <input type="text" id="apellido" name="apellido">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <hr>
+    <h2>Lista de Usuarios</h2>
+    <button id="obtenUsuarios">Cargar Usuarios</button>
+    <div id="listaUsuarios"></div>
 </body>
 </html>
