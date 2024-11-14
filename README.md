@@ -1,4 +1,8 @@
 ```bash
+docker exec -it anexoajax-web-1 /bin/bash
+```
+
+```bash
 services:
   web:
     image: php:7.2-apache
