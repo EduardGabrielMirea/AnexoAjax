@@ -1,6 +1,6 @@
 <?php
 require("conexion.php");
-$sql = $pdo->query("SELECT * FROM personas");
+$sql = $pdo->query("SELECT * FROM persona");
 while ($resultado = $sql->fetch()) {
     echo $resultado['nombre'] . " " . $resultado['apellido'] . "<br>";
 }

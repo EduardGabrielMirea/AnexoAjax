@@ -8,9 +8,9 @@ $opciones = array(
 );
 try{
 $pdo = new PDO(
-    'mysql:host=db;dbname=db;charset=utf8',  // DSN
-        'symfony',                                         // Nombre de usuario
-        'symfony',                                           // Contraseña
+    'mysql:host=localhost;dbname=clase;charset=utf8',  // DSN
+        'root',                                         // Nombre de usuario
+        'sa',                                           // Contraseña
         $opciones                                        // Opciones adicionales
 );
 echo "Conexión exitosa.";
