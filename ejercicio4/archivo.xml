@@ -1,0 +1,10 @@
+<usuarios>
+    <usuario>
+        <nombre>Juan</nombre>
+        <edad>30</edad>
+    </usuario>
+    <usuario>
+        <nombre>María</nombre>
+        <edad>25</edad>
+    </usuario>
+</usuarios>

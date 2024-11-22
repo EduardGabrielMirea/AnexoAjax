@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/script.js"></script>
-    <title>Document</title>
+    <title>Calculadora de Promedio</title>
 </head>
 <body>
-    <h1>hola</h1>
+    <div class="container">
+        <h1>Calculadora de Promedio</h1>
+        <form action="" method="post" id="formulario">
+            <label for="number1">Número 1:</label>
+            <input type="number" name="number1" id="number1" required>
+
+            <label for="number2">Número 2:</label>
+            <input type="number" name="number2" id="number2" required>
+
+            <label for="number3">Número 3:</label>
+            <input type="number" name="number3" id="number3" required>
+
+            <button type="submit" id="submit">Calcular Promedio</button>
+        </form>
+
+        <label for="resultado">Promedio:</label>
+        <input type="text" name="resultado" id="resultado" readonly>
+    </div>
 </body>
 </html>

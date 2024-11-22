@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/script.js"></script>
-    <title>Document</title>
+    <title>Gestión de Usuarios</title>
 </head>
 <body>
-    <h1>hola</h1>
+    <h1>Gestión de Usuarios</h1>
+
+    <h2>Lista de Usuarios</h2>
+    <button id="cargarUsuarios">Cargar Usuarios</button>
+    <ul id="listaUsuarios"></ul>
+
+    <h2>Actualizar Usuarios</h2>
+    <form id="actualizarForm">
+        <label for="nuevoNombre">Nombre:</label>
+        <input type="text" id="nuevoNombre">
+        <label for="nuevaEdad">Edad:</label>
+        <input type="number" id="nuevaEdad">
+        <button type="submit">Agregar Usuario</button>
+    </form>
+
+    <div id="respuesta"></div>
 </body>
 </html>

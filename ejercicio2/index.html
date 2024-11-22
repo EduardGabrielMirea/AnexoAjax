@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/script.js"></script>
-    <title>Document</title>
+    <title>Saludo Personalizado</title>
 </head>
 <body>
-    <h1>hola</h1>
+    <div class="container">
+        <h1>Generador de Saludo Personalizado</h1>
+        <form action="" method="post" id="formulario">
+            <label for="nombre">Escribe tu nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <button type="submit" id="submit">Enviar</button>
+        </form>
+
+        <label for="saludo">Tu saludo:</label>
+        <textarea name="saludo" id="saludo" rows="4" readonly></textarea>
+    </div>
 </body>
 </html>
