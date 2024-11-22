@@ -11,6 +11,5 @@ if (isset($_GET['name']) && is_string($_GET['name']) && isset($_GET['lastName'])
     $fullName = $name . ' - ' . $lastName;
     echo $fullName;
 }else{
-    echo "Introduce nombre y apellido";
 }
 ?>

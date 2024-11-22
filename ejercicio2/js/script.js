@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Obtén el valor del nombre
         var nombre = document.getElementById("nombre").value;
 
+        //Mirar lo del headerRequest.
         // Crea un objeto FormData para enviar los datos
         var formData = new FormData();
         formData.append("nombre", nombre);

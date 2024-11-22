@@ -13,7 +13,6 @@ $pdo = new PDO(
         'sa',                                           // Contraseña
         $opciones                                        // Opciones adicionales
 );
-echo "Conexión exitosa.";
 }catch (PDOException $e) {
     // Capturar errores en caso de fallo
     echo "Error en la conexión: " . $e->getMessage();
